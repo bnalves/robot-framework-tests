@@ -2,7 +2,7 @@
 Library    SeleniumLibrary
 
 *** Variables ***
-${BROWSER}      firefox
+${BROWSER}      headlessfirefox
 ${URL}          http://automationpractice.com
 
 *** Keywords ***
