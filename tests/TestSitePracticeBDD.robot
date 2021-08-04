@@ -28,6 +28,8 @@ Quando eu pesquisar pelo produto "${PRODUTO}"
 
 Então o produto "${PRODUTO}" deve ser listado na página de resultado da busca
     Conferir se o produto "${PRODUTO}" foi listado no site
+    Capture Page Screenshot
 
 Então a página deve exibir a mensagem "${MENSAGEM_ALERTA}"
     Conferir mensagem de erro "${MENSAGEM_ALERTA}"
+    Capture Page Screenshot
