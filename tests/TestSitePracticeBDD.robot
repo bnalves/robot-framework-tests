@@ -4,8 +4,8 @@ Test Setup      Abrir navegador
 Test Teardown   Fechar navegador
 
 *** Variables ***
-${URL}          http://automationpractice.com
-${BROWSER}      headlessfirefox
+${URL}          http://automationpractice.com/index.php
+${BROWSER}      headlesschrome
 
 *** Test Case ***
 Cenário 01: Pesquisar produto existente
